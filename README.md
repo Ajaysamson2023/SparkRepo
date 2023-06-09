@@ -2,7 +2,9 @@
 
 **Assignment-1**
 
--- Imported Sql functions and Created spark session.
+-- As per the spark assignment they are user and transaction csv files.
+
+-- Firstly Imported Sql functions and Created spark session.
 
 -- Created function and read user and transaction csv files.
 
