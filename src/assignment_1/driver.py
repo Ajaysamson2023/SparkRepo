@@ -15,7 +15,10 @@ transaction_df = dataframe_read(spark, n1)
 transaction_df.show()
 
 # Joining user and transaction dataframe:
-join_df = join_dataframe(user_df, transaction_df)
+col_1_df = 'user_id'
+col_2_df = 'userid'
+join_type = 'inner'
+join_df = join_dataframe(user_df, transaction_df, col_1_df, col_2_df, join_type)
 join_df.show()
 
 # Getting unique location from dataframe:
