@@ -15,8 +15,8 @@ def dataframe_read(spark, n):
 
 
 # Joining user and transaction dataframe:
-def join_dataframe(user_df, transaction_df):
-    df_join = user_df.join(transaction_df, user_df['user_id'] == transaction_df['userid'], "inner")
+def join_dataframe(user_df, transaction_df, col_1_df, col_2_df, join_type):
+    df_join = user_df.join(transaction_df, user_df[col_1_df] == transaction_df[col_2_df], join_type)
     return df_join
 
 
