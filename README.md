@@ -2,7 +2,7 @@
 
 **Assignment-1**
 
--- Imported and Created spark session inside the function.
+-- Imported Sql functions and Created spark session.
 
 -- Created function and read user and transaction csv files.
 
