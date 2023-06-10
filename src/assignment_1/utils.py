@@ -9,9 +9,14 @@ def spark_session():
 
 
 # Reading user data and transaction data:
-def dataframe_read(spark, n):
+def dataframe_read_user(spark, n):
     dataframe_user = spark.read.csv(n, header=True, inferSchema=True)
     return dataframe_user
+
+
+def dataframe_read_transaction(spark, n1):
+    dataframe_transact = spark.read.csv(n1, header=True, inferSchema=True)
+    return dataframe_transact
 
 
 # Joining user and transaction dataframe:
