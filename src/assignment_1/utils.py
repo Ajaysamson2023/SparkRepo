@@ -39,5 +39,5 @@ def product_bought(join_df):
 
 # Getting total spend from dataframe:
 def total_spend(join_df):
-    sum_user = join_df.groupBy("userid", "product_id").agg(sum("price").alias("sum_of_spend"))
+    sum_user = join_df.groupBy("userid","product_id").agg(sum("price").alias("sum_of_spend"))
     return sum_user
