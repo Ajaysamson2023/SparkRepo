@@ -9,60 +9,42 @@ class MyTestCase(unittest.TestCase):
     def test_df(self):
         # Schema and data for User:
         schema_user = StructType([
-            StructField('user_id', IntegerType(), True),
-            StructField('emailid', StringType(), True),
-            StructField('nativelanguage', StringType(), True),
-            StructField('location', StringType(), True)
-        ])
+            StructField('user_id', IntegerType(), True),StructField('emailid', StringType(), True),
+            StructField('nativelanguage', StringType(), True),StructField('location', StringType(), True)])
 
-        data_user = [(101, "abc.123@gmail.com", "hindi", "mumbai"),
-                     (102, "jhon@gmail.com", "english", "usa"),
-                     (103, "madan.44@gmail.com", "marathi", "nagpur"),
-                     (104, "local.88@outlook.com", "tamil", "chennai"),
-                     (105, "sahil.55@gmail.com", "english", "usa")
-                     ]
+        data_user = [(101, "abc.123@gmail.com", "hindi", "mumbai"), (102, "jhon@gmail.com", "english", "usa"),
+                     (103, "madan.44@gmail.com", "marathi", "nagpur"),(104, "local.88@outlook.com", "tamil", "chennai"),
+                     (105, "sahil.55@gmail.com", "english", "usa")]
         # Creating dataframe for user_df:
         user_df = self.spark.createDataFrame(data=data_user, schema=schema_user)
         # user_df.show()
         "---------------------------------------------------------------------------------------------------------------------"
         # Schema and data for User:
         schema_transaction = StructType([
-            StructField('transaction_id', IntegerType(), True),
-            StructField('product_id', IntegerType(), True),
-            StructField('userid', IntegerType(), True),
-            StructField('price', IntegerType(), True),
-            StructField('product_description', StringType(), True)
-        ])
+            StructField('transaction_id', IntegerType(), True),  StructField('product_id', IntegerType(), True),
+            StructField('userid', IntegerType(), True), StructField('price', IntegerType(), True),
+            StructField('product_description', StringType(), True)])
 
-        data_transaction = [(3300101, 1000001, 101, 700, "mouse"),
-                            (3300102, 1000002, 102, 900, "keyboard"),
-                            (3300103, 1000003, 103, 34000, "tv"),
-                            (3300104, 1000004, 101, 35000, "fridge"),
-                            (3300105, 1000005, 105, 55000, "sofa")
-                            ]
+        data_transaction = [(3300101, 1000001, 101, 700, "mouse"), (3300102, 1000002, 102, 900, "keyboard"),
+                            (3300103, 1000003, 103, 34000, "tv"),(3300104, 1000004, 101, 35000, "fridge"),
+                            (3300105, 1000005, 105, 55000, "sofa") ]
         # Creating dataframe for transaction_df:
         transaction_df = self.spark.createDataFrame(data=data_transaction, schema=schema_transaction)
         # transaction_df.show()
         "---------------------------------------------------------------------------------------------------------------------"
         # Schema and data expected:
         schema_expected = StructType([
-            StructField('user_id', IntegerType(), True),
-            StructField('emailid', StringType(), True),
-            StructField('nativelanguage', StringType(), True),
-            StructField('location', StringType(), True),
-            StructField('transaction_id', IntegerType(), True),
-            StructField('product_id', IntegerType(), True),
-            StructField('userid', IntegerType(), True),
-            StructField('price', IntegerType(), True),
-            StructField('product_description', StringType(), True)
-        ])
+            StructField('user_id', IntegerType(), True), StructField('emailid', StringType(), True),
+            StructField('nativelanguage', StringType(), True),StructField('location', StringType(), True),
+            StructField('transaction_id', IntegerType(), True),StructField('product_id', IntegerType(), True),
+            StructField('userid', IntegerType(), True),StructField('price', IntegerType(), True),
+            StructField('product_description', StringType(), True)])
 
         data_expected = [(101, "abc.123@gmail.com", "hindi", "mumbai", 3300104, 1000004, 101, 35000, "fridge"),
                          (102, "jhon@gmail.com", "english", "usa", 3300102, 1000002, 102, 900, "keyboard"),
                          (103, "madan.44@gmail.com", "marathi", "nagpur", 3300103, 1000003, 103, 34000, "tv"),
                          (105, "sahil.55@gmail.com", "english", "usa", 3300105, 1000005, 105, 55000, "sofa"),
-                         (101, "abc.123@gmail.com", "hindi", "mumbai", 3300101, 1000001, 101, 700, "mouse"),
-                         ]
+                         (101, "abc.123@gmail.com", "hindi", "mumbai", 3300101, 1000001, 101, 700, "mouse")]
         expected_dataframe = self.spark.createDataFrame(data=data_expected, schema=schema_expected)
         # Transformation of dataframe:
         col_1_df = 'user_id'
@@ -103,8 +85,7 @@ class MyTestCase(unittest.TestCase):
         "----------------------------------------------------------------------------------------------------------------------------"
         # Question-3: Total spend:
         total_schema = StructType([
-            StructField('userid', IntegerType(), True),
-            StructField('product_id', IntegerType(), True),
+            StructField('userid', IntegerType(), True),StructField('product_id', IntegerType(), True),
             StructField('sum_of_spend', IntegerType(), True)
         ])
         total_data = [
