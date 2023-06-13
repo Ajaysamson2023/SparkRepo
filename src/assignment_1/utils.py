@@ -1,5 +1,5 @@
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import countDistinct, count, sum
+from pyspark.sql.functions import count, sum
 
 
 # Creating Spark session:
