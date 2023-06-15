@@ -1,6 +1,6 @@
 from pyspark.sql import *
 from pyspark.sql.functions import *
-from pyspark.sql.types import StructType, StructField
+from pyspark.sql.types import StructType,StructField,IntegerType
 from pyspark.sql import SparkSession
 
 
