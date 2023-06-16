@@ -2,6 +2,8 @@
 
 **Assignment-1**
 
+-- Configured and added logger for assignment_1.
+
 -- As per the spark assignment_1 they are user and transaction csv files.
 
 -- Firstly Imported Sql functions and Created spark session.
