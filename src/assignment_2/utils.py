@@ -80,6 +80,15 @@ def failed_request(split_col):
     return fail_request
 
 
+def active_hour(df):
+    most_active_hour = df.groupBy("ght_data_retrieval").agg(count("*").alias("most_active_hour"))
+    most_act_hour = most_active_hour.orderBy(col("most_active_hour").desc())
+    most_hour_active = most_act_hour.limit(1)
+    logging.info("Counting most active hour")
+    logging.warning("%s Number of most active hour" % most_hour_active)
+    return most_hour_active
+
+
 def most_active_repo(split_col):
     most_active = split_col.groupBy("retriever").agg(count("*").alias("gh_torrent_rb_data"))
     most_active_repository = most_active.orderBy(col("gh_torrent_rb_data").desc())
