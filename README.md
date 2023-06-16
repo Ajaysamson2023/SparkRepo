@@ -38,4 +38,6 @@
 
 -- **Question_6**-Counting most failed HTTP requests by using filter,groupBy,orderBy and aggregate functions.
 
--- **Question_7**-Counting most active repository groupBy,orderBy and aggregate functions
+-- **Question_7**-Counting most active hour by using groupBy,orderBy and aggregate functions.
+
+-- **Question_8**-Counting most active repository by using groupBy,orderBy and aggregate functions.
