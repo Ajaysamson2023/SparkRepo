@@ -28,7 +28,10 @@ client_request_max.show()
 failed_request = failed_request(spilt_column)
 failed_request.show()
 
+# Most Active hour:
+most_active_hours = active_hour(df)
+most_active_hours.show()
+
 # Most active repository:
 most_active_repository = most_active_repo(spilt_column)
 most_active_repository.show()
-
