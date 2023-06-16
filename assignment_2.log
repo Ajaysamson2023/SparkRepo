@@ -16,3 +16,331 @@
 2023-06-16 13:33:16,598 [INFO] Counting most active repository
 2023-06-16 13:33:16,600 [WARNING] DataFrame[retriever: string, gh_torrent_rb_data: bigint] Number of most active counting
 2023-06-16 13:33:19,071 [INFO] Closing down clientserver connection
+2023-06-16 16:46:58,798 [INFO] Created spark session
+2023-06-16 16:47:08,120 [INFO] Counting number of total lines 
+2023-06-16 16:47:09,465 [INFO] Counting number of warning messages appeared
+2023-06-16 16:47:09,480 [WARNING] DataFrame[Warn_message: bigint] Number of counting
+2023-06-16 16:47:10,734 [INFO] Counting number of api client lines 
+2023-06-16 16:47:10,736 [WARNING] DataFrame[Total_api_Client: bigint] Number of counting
+2023-06-16 16:47:13,073 [INFO] Splitted  into different columns
+2023-06-16 16:47:13,078 [WARNING] DataFrame[event_processing: string, ght_data_retrieval: string, api_client: string, client_id: string, client_data: string, retriever: string, ghtorrent: string] Number of counting
+2023-06-16 16:47:13,438 [INFO] Counting number of maximum client requests
+2023-06-16 16:47:13,440 [WARNING] DataFrame[client_id: string, max_client_request: bigint] Number of client counting
+2023-06-16 16:47:16,926 [INFO] Counting number of failed requests
+2023-06-16 16:47:16,930 [WARNING] DataFrame[client_id: string, Client_id_failed: bigint] Number of failed counting
+2023-06-16 16:47:20,437 [INFO] Counting most active repository
+2023-06-16 16:47:20,440 [WARNING] DataFrame[retriever: string, gh_torrent_rb_data: bigint] Number of most active counting
+2023-06-16 16:47:22,927 [INFO] Closing down clientserver connection
+2023-06-16 17:32:46,061 [INFO] Created spark session
+2023-06-16 17:32:53,465 [INFO] Counting number of total lines 
+2023-06-16 17:32:54,663 [INFO] Counting number of warning messages appeared
+2023-06-16 17:32:54,690 [WARNING] DataFrame[Warn_message: bigint] Number of counting
+2023-06-16 17:32:55,658 [INFO] Counting number of api client lines 
+2023-06-16 17:32:55,660 [WARNING] DataFrame[Total_api_Client: bigint] Number of counting
+2023-06-16 17:32:57,439 [INFO] Splitted  into different columns
+2023-06-16 17:32:57,442 [WARNING] DataFrame[event_processing: string, ght_data_retrieval: string, api_client: string, client_id: string, client_data: string, retriever: string, ghtorrent: string] Number of counting
+2023-06-16 17:32:57,728 [INFO] Counting number of maximum client requests
+2023-06-16 17:32:57,730 [WARNING] DataFrame[client_id: string, max_client_request: bigint] Number of client counting
+2023-06-16 17:33:00,834 [INFO] Counting number of failed requests
+2023-06-16 17:33:00,836 [WARNING] DataFrame[client_id: string, Client_id_failed: bigint] Number of failed counting
+2023-06-16 17:33:02,852 [INFO] Counting most active repository
+2023-06-16 17:33:02,854 [WARNING] DataFrame[retriever: string, gh_torrent_rb_data: bigint] Number of most active counting
+2023-06-16 17:33:04,579 [INFO] Closing down clientserver connection
+2023-06-16 17:36:06,727 [INFO] Created spark session
+2023-06-16 17:36:15,904 [INFO] Counting number of total lines 
+2023-06-16 17:36:17,256 [INFO] Counting number of warning messages appeared
+2023-06-16 17:36:17,275 [WARNING] DataFrame[Warn_message: bigint] Number of counting
+2023-06-16 17:36:18,484 [INFO] Counting number of api client lines 
+2023-06-16 17:36:18,486 [WARNING] DataFrame[Total_api_Client: bigint] Number of counting
+2023-06-16 17:36:20,643 [INFO] Splitted  into different columns
+2023-06-16 17:36:20,646 [WARNING] DataFrame[event_processing: string, ght_data_retrieval: string, api_client: string, client_id: string, client_data: string, retriever: string, ghtorrent: string] Number of counting
+2023-06-16 17:36:21,008 [INFO] Counting number of maximum client requests
+2023-06-16 17:36:21,010 [WARNING] DataFrame[client_id: string, max_client_request: bigint] Number of client counting
+2023-06-16 17:36:24,480 [INFO] Counting number of failed requests
+2023-06-16 17:36:24,483 [WARNING] DataFrame[client_id: string, Client_id_failed: bigint] Number of failed counting
+2023-06-16 17:36:28,740 [INFO] Counting most active repository
+2023-06-16 17:36:28,742 [WARNING] DataFrame[retriever: string, gh_torrent_rb_data: bigint] Number of most active counting
+2023-06-16 17:36:30,971 [INFO] Closing down clientserver connection
+2023-06-16 17:37:14,365 [INFO] Created spark session
+2023-06-16 17:37:22,123 [INFO] Counting number of total lines 
+2023-06-16 17:37:23,433 [INFO] Counting number of warning messages appeared
+2023-06-16 17:37:23,450 [WARNING] DataFrame[Warn_message: bigint] Number of counting
+2023-06-16 17:37:24,625 [INFO] Counting number of api client lines 
+2023-06-16 17:37:24,628 [WARNING] DataFrame[Total_api_Client: bigint] Number of counting
+2023-06-16 17:37:26,816 [INFO] Splitted  into different columns
+2023-06-16 17:37:26,818 [WARNING] DataFrame[event_processing: string, ght_data_retrieval: string, api_client: string, client_id: string, client_data: string, retriever: string, ghtorrent: string] Number of counting
+2023-06-16 17:37:27,159 [INFO] Counting number of maximum client requests
+2023-06-16 17:37:27,161 [WARNING] DataFrame[client_id: string, max_client_request: bigint] Number of client counting
+2023-06-16 17:37:30,031 [INFO] Counting number of failed requests
+2023-06-16 17:37:30,034 [WARNING] DataFrame[client_id: string, Client_id_failed: bigint] Number of failed counting
+2023-06-16 17:37:32,617 [INFO] Closing down clientserver connection
+2023-06-16 17:37:58,060 [INFO] Created spark session
+2023-06-16 17:38:06,140 [INFO] Counting number of total lines 
+2023-06-16 17:38:07,389 [INFO] Counting number of warning messages appeared
+2023-06-16 17:38:07,406 [WARNING] DataFrame[Warn_message: bigint] Number of counting
+2023-06-16 17:38:08,578 [INFO] Counting number of api client lines 
+2023-06-16 17:38:08,579 [WARNING] DataFrame[Total_api_Client: bigint] Number of counting
+2023-06-16 17:38:10,840 [INFO] Splitted  into different columns
+2023-06-16 17:38:10,843 [WARNING] DataFrame[event_processing: string, ght_data_retrieval: string, api_client: string, client_id: string, client_data: string, retriever: string, ghtorrent: string] Number of counting
+2023-06-16 17:38:11,161 [INFO] Counting number of maximum client requests
+2023-06-16 17:38:11,164 [WARNING] DataFrame[client_id: string, max_client_request: bigint] Number of client counting
+2023-06-16 17:38:13,882 [INFO] Counting number of failed requests
+2023-06-16 17:38:13,885 [WARNING] DataFrame[client_id: string, Client_id_failed: bigint] Number of failed counting
+2023-06-16 17:38:18,293 [INFO] Closing down clientserver connection
+2023-06-16 17:39:42,468 [INFO] Created spark session
+2023-06-16 17:39:51,206 [INFO] Counting number of total lines 
+2023-06-16 17:39:52,451 [INFO] Counting number of warning messages appeared
+2023-06-16 17:39:52,467 [WARNING] DataFrame[Warn_message: bigint] Number of counting
+2023-06-16 17:39:53,578 [INFO] Counting number of api client lines 
+2023-06-16 17:39:53,580 [WARNING] DataFrame[Total_api_Client: bigint] Number of counting
+2023-06-16 17:39:55,774 [INFO] Splitted  into different columns
+2023-06-16 17:39:55,776 [WARNING] DataFrame[event_processing: string, ght_data_retrieval: string, api_client: string, client_id: string, client_data: string, retriever: string, ghtorrent: string] Number of counting
+2023-06-16 17:39:56,098 [INFO] Counting number of maximum client requests
+2023-06-16 17:39:56,101 [WARNING] DataFrame[client_id: string, max_client_request: bigint] Number of client counting
+2023-06-16 17:39:58,953 [INFO] Counting number of failed requests
+2023-06-16 17:39:58,956 [WARNING] DataFrame[client_id: string, Client_id_failed: bigint] Number of failed counting
+2023-06-16 17:40:01,504 [INFO] Closing down clientserver connection
+2023-06-16 17:41:45,893 [INFO] Created spark session
+2023-06-16 17:41:53,810 [INFO] Counting number of total lines 
+2023-06-16 17:41:55,106 [INFO] Counting number of warning messages appeared
+2023-06-16 17:41:55,123 [WARNING] DataFrame[Warn_message: bigint] Number of counting
+2023-06-16 17:41:56,339 [INFO] Counting number of api client lines 
+2023-06-16 17:41:56,341 [WARNING] DataFrame[Total_api_Client: bigint] Number of counting
+2023-06-16 17:41:58,682 [INFO] Splitted  into different columns
+2023-06-16 17:41:58,685 [WARNING] DataFrame[event_processing: string, ght_data_retrieval: string, api_client: string, client_id: string, client_data: string, retriever: string, ghtorrent: string] Number of counting
+2023-06-16 17:41:59,051 [INFO] Counting number of maximum client requests
+2023-06-16 17:41:59,053 [WARNING] DataFrame[client_id: string, max_client_request: bigint] Number of client counting
+2023-06-16 17:42:01,820 [INFO] Counting number of failed requests
+2023-06-16 17:42:01,822 [WARNING] DataFrame[client_id: string, Client_id_failed: bigint] Number of failed counting
+2023-06-16 17:42:04,428 [INFO] Closing down clientserver connection
+2023-06-16 17:42:42,053 [INFO] Created spark session
+2023-06-16 17:42:49,864 [INFO] Counting number of total lines 
+2023-06-16 17:42:51,084 [INFO] Counting number of warning messages appeared
+2023-06-16 17:42:51,099 [WARNING] DataFrame[Warn_message: bigint] Number of counting
+2023-06-16 17:42:52,284 [INFO] Counting number of api client lines 
+2023-06-16 17:42:52,286 [WARNING] DataFrame[Total_api_Client: bigint] Number of counting
+2023-06-16 17:42:54,475 [INFO] Splitted  into different columns
+2023-06-16 17:42:54,478 [WARNING] DataFrame[event_processing: string, ght_data_retrieval: string, api_client: string, client_id: string, client_data: string, retriever: string, ghtorrent: string] Number of counting
+2023-06-16 17:42:54,807 [INFO] Counting number of maximum client requests
+2023-06-16 17:42:54,809 [WARNING] DataFrame[client_id: string, max_client_request: bigint] Number of client counting
+2023-06-16 17:42:57,356 [INFO] Counting number of failed requests
+2023-06-16 17:42:57,359 [WARNING] DataFrame[client_id: string, Client_id_failed: bigint] Number of failed counting
+2023-06-16 17:42:59,919 [INFO] Closing down clientserver connection
+2023-06-16 17:49:08,637 [INFO] Created spark session
+2023-06-16 17:49:16,317 [INFO] Counting number of total lines 
+2023-06-16 17:49:17,655 [INFO] Counting number of warning messages appeared
+2023-06-16 17:49:17,673 [WARNING] DataFrame[Warn_message: bigint] Number of counting
+2023-06-16 17:49:18,822 [INFO] Counting number of api client lines 
+2023-06-16 17:49:18,824 [WARNING] DataFrame[Total_api_Client: bigint] Number of counting
+2023-06-16 17:49:20,959 [INFO] Splitted  into different columns
+2023-06-16 17:49:20,961 [WARNING] DataFrame[event_processing: string, ght_data_retrieval: string, api_client: string, client_id: string, client_data: string, retriever: string, ghtorrent: string] Number of counting
+2023-06-16 17:49:21,298 [INFO] Counting number of maximum client requests
+2023-06-16 17:49:21,299 [WARNING] DataFrame[client_id: string, max_client_request: bigint] Number of client counting
+2023-06-16 17:49:24,075 [INFO] Counting number of failed requests
+2023-06-16 17:49:24,081 [WARNING] DataFrame[client_id: string, Client_id_failed: bigint] Number of failed counting
+2023-06-16 17:49:26,642 [INFO] Closing down clientserver connection
+2023-06-16 17:50:20,283 [INFO] Created spark session
+2023-06-16 17:50:28,071 [INFO] Counting number of total lines 
+2023-06-16 17:50:29,318 [INFO] Counting number of warning messages appeared
+2023-06-16 17:50:29,334 [WARNING] DataFrame[Warn_message: bigint] Number of counting
+2023-06-16 17:50:30,582 [INFO] Counting number of api client lines 
+2023-06-16 17:50:30,585 [WARNING] DataFrame[Total_api_Client: bigint] Number of counting
+2023-06-16 17:50:32,782 [INFO] Splitted  into different columns
+2023-06-16 17:50:32,785 [WARNING] DataFrame[event_processing: string, ght_data_retrieval: string, api_client: string, client_id: string, client_data: string, retriever: string, ghtorrent: string] Number of counting
+2023-06-16 17:50:33,135 [INFO] Counting number of maximum client requests
+2023-06-16 17:50:33,137 [WARNING] DataFrame[client_id: string, max_client_request: bigint] Number of client counting
+2023-06-16 17:50:35,720 [INFO] Counting number of failed requests
+2023-06-16 17:50:35,722 [WARNING] DataFrame[client_id: string, Client_id_failed: bigint] Number of failed counting
+2023-06-16 17:50:38,176 [INFO] Closing down clientserver connection
+2023-06-16 17:51:49,084 [INFO] Created spark session
+2023-06-16 17:51:57,009 [INFO] Counting number of total lines 
+2023-06-16 17:51:58,315 [INFO] Counting number of warning messages appeared
+2023-06-16 17:51:58,329 [WARNING] DataFrame[Warn_message: bigint] Number of counting
+2023-06-16 17:51:59,495 [INFO] Counting number of api client lines 
+2023-06-16 17:51:59,497 [WARNING] DataFrame[Total_api_Client: bigint] Number of counting
+2023-06-16 17:52:01,695 [INFO] Splitted  into different columns
+2023-06-16 17:52:01,697 [WARNING] DataFrame[event_processing: string, ght_data_retrieval: string, api_client: string, client_id: string, client_data: string, retriever: string, ghtorrent: string] Number of counting
+2023-06-16 17:52:02,022 [INFO] Counting number of maximum client requests
+2023-06-16 17:52:02,023 [WARNING] DataFrame[client_id: string, max_client_request: bigint] Number of client counting
+2023-06-16 17:52:04,714 [INFO] Counting number of failed requests
+2023-06-16 17:52:04,717 [WARNING] DataFrame[client_id: string, Client_id_failed: bigint] Number of failed counting
+2023-06-16 17:52:07,573 [INFO] Closing down clientserver connection
+2023-06-16 17:52:44,071 [INFO] Created spark session
+2023-06-16 17:52:51,769 [INFO] Counting number of total lines 
+2023-06-16 17:52:53,243 [INFO] Counting number of warning messages appeared
+2023-06-16 17:52:53,264 [WARNING] DataFrame[Warn_message: bigint] Number of counting
+2023-06-16 17:52:54,565 [INFO] Counting number of api client lines 
+2023-06-16 17:52:54,568 [WARNING] DataFrame[Total_api_Client: bigint] Number of counting
+2023-06-16 17:52:56,928 [INFO] Splitted  into different columns
+2023-06-16 17:52:56,931 [WARNING] DataFrame[event_processing: string, ght_data_retrieval: string, api_client: string, client_id: string, client_data: string, retriever: string, ghtorrent: string] Number of counting
+2023-06-16 17:52:57,288 [INFO] Counting number of maximum client requests
+2023-06-16 17:52:57,290 [WARNING] DataFrame[client_id: string, max_client_request: bigint] Number of client counting
+2023-06-16 17:53:00,108 [INFO] Counting number of failed requests
+2023-06-16 17:53:00,110 [WARNING] DataFrame[client_id: string, Client_id_failed: bigint] Number of failed counting
+2023-06-16 17:53:02,717 [INFO] Closing down clientserver connection
+2023-06-16 17:53:51,832 [INFO] Created spark session
+2023-06-16 17:53:59,512 [INFO] Counting number of total lines 
+2023-06-16 17:54:00,815 [INFO] Counting number of warning messages appeared
+2023-06-16 17:54:00,830 [WARNING] DataFrame[Warn_message: bigint] Number of counting
+2023-06-16 17:54:01,982 [INFO] Counting number of api client lines 
+2023-06-16 17:54:01,984 [WARNING] DataFrame[Total_api_Client: bigint] Number of counting
+2023-06-16 17:54:04,120 [INFO] Splitted  into different columns
+2023-06-16 17:54:04,123 [WARNING] DataFrame[event_processing: string, ght_data_retrieval: string, api_client: string, client_id: string, client_data: string, retriever: string, ghtorrent: string] Number of counting
+2023-06-16 17:54:04,437 [INFO] Counting number of maximum client requests
+2023-06-16 17:54:04,439 [WARNING] DataFrame[client_id: string, max_client_request: bigint] Number of client counting
+2023-06-16 17:54:07,099 [INFO] Counting number of failed requests
+2023-06-16 17:54:07,101 [WARNING] DataFrame[client_id: string, Client_id_failed: bigint] Number of failed counting
+2023-06-16 17:54:09,526 [INFO] Closing down clientserver connection
+2023-06-16 17:56:04,424 [INFO] Created spark session
+2023-06-16 17:56:12,026 [INFO] Counting number of total lines 
+2023-06-16 17:56:13,261 [INFO] Counting number of warning messages appeared
+2023-06-16 17:56:13,275 [WARNING] DataFrame[Warn_message: bigint] Number of counting
+2023-06-16 17:56:14,444 [INFO] Counting number of api client lines 
+2023-06-16 17:56:14,446 [WARNING] DataFrame[Total_api_Client: bigint] Number of counting
+2023-06-16 17:56:16,623 [INFO] Splitted  into different columns
+2023-06-16 17:56:16,625 [WARNING] DataFrame[event_processing: string, ght_data_retrieval: string, api_client: string, client_id: string, client_data: string, retriever: string, ghtorrent: string] Number of counting
+2023-06-16 17:56:16,954 [INFO] Counting number of maximum client requests
+2023-06-16 17:56:16,956 [WARNING] DataFrame[client_id: string, max_client_request: bigint] Number of client counting
+2023-06-16 17:56:19,512 [INFO] Counting number of failed requests
+2023-06-16 17:56:19,514 [WARNING] DataFrame[client_id: string, Client_id_failed: bigint] Number of failed counting
+2023-06-16 17:56:21,902 [INFO] Closing down clientserver connection
+2023-06-16 17:59:34,331 [INFO] Created spark session
+2023-06-16 17:59:42,222 [INFO] Counting number of total lines 
+2023-06-16 17:59:43,629 [INFO] Counting number of warning messages appeared
+2023-06-16 17:59:43,644 [WARNING] DataFrame[Warn_message: bigint] Number of counting
+2023-06-16 17:59:44,832 [INFO] Counting number of api client lines 
+2023-06-16 17:59:44,835 [WARNING] DataFrame[Total_api_Client: bigint] Number of counting
+2023-06-16 17:59:46,949 [INFO] Splitted  into different columns
+2023-06-16 17:59:46,952 [WARNING] DataFrame[event_processing: string, ght_data_retrieval: string, api_client: string, client_id: string, client_data: string, retriever: string, ghtorrent: string] Number of counting
+2023-06-16 17:59:47,286 [INFO] Counting number of maximum client requests
+2023-06-16 17:59:47,288 [WARNING] DataFrame[client_id: string, max_client_request: bigint] Number of client counting
+2023-06-16 17:59:49,825 [INFO] Counting number of failed requests
+2023-06-16 17:59:49,828 [WARNING] DataFrame[client_id: string, Client_id_failed: bigint] Number of failed counting
+2023-06-16 17:59:52,389 [INFO] Closing down clientserver connection
+2023-06-16 18:00:30,416 [INFO] Created spark session
+2023-06-16 18:00:38,212 [INFO] Counting number of total lines 
+2023-06-16 18:00:39,488 [INFO] Counting number of warning messages appeared
+2023-06-16 18:00:39,503 [WARNING] DataFrame[Warn_message: bigint] Number of counting
+2023-06-16 18:00:40,624 [INFO] Counting number of api client lines 
+2023-06-16 18:00:40,627 [WARNING] DataFrame[Total_api_Client: bigint] Number of counting
+2023-06-16 18:00:42,746 [INFO] Splitted  into different columns
+2023-06-16 18:00:42,748 [WARNING] DataFrame[event_processing: string, ght_data_retrieval: string, api_client: string, client_id: string, client_data: string, retriever: string, ghtorrent: string] Number of counting
+2023-06-16 18:00:43,079 [INFO] Counting number of maximum client requests
+2023-06-16 18:00:43,083 [WARNING] DataFrame[client_id: string, max_client_request: bigint] Number of client counting
+2023-06-16 18:00:45,983 [INFO] Counting number of failed requests
+2023-06-16 18:00:45,986 [WARNING] DataFrame[client_id: string, Client_id_failed: bigint] Number of failed counting
+2023-06-16 18:00:48,539 [INFO] Closing down clientserver connection
+2023-06-16 18:01:50,567 [INFO] Created spark session
+2023-06-16 18:01:58,427 [INFO] Counting number of total lines 
+2023-06-16 18:01:59,717 [INFO] Counting number of warning messages appeared
+2023-06-16 18:01:59,732 [WARNING] DataFrame[Warn_message: bigint] Number of counting
+2023-06-16 18:02:00,911 [INFO] Counting number of api client lines 
+2023-06-16 18:02:00,913 [WARNING] DataFrame[Total_api_Client: bigint] Number of counting
+2023-06-16 18:02:03,259 [INFO] Splitted  into different columns
+2023-06-16 18:02:03,261 [WARNING] DataFrame[event_processing: string, ght_data_retrieval: string, api_client: string, client_id: string, client_data: string, retriever: string, ghtorrent: string] Number of counting
+2023-06-16 18:02:03,582 [INFO] Counting number of maximum client requests
+2023-06-16 18:02:03,584 [WARNING] DataFrame[client_id: string, max_client_request: bigint] Number of client counting
+2023-06-16 18:02:06,104 [INFO] Counting number of failed requests
+2023-06-16 18:02:06,107 [WARNING] DataFrame[client_id: string, Client_id_failed: bigint] Number of failed counting
+2023-06-16 18:02:10,603 [INFO] Counting most active repository
+2023-06-16 18:02:10,605 [WARNING] DataFrame[retriever: string, gh_torrent_rb_data: bigint] Number of most active counting
+2023-06-16 18:02:12,831 [INFO] Closing down clientserver connection
+2023-06-16 18:05:48,775 [INFO] Created spark session
+2023-06-16 18:05:56,449 [INFO] Counting number of total lines 
+2023-06-16 18:05:57,733 [INFO] Counting number of warning messages appeared
+2023-06-16 18:05:57,748 [WARNING] DataFrame[Warn_message: bigint] Number of counting
+2023-06-16 18:05:58,896 [INFO] Counting number of api client lines 
+2023-06-16 18:05:58,898 [WARNING] DataFrame[Total_api_Client: bigint] Number of counting
+2023-06-16 18:06:01,080 [INFO] Splitted  into different columns
+2023-06-16 18:06:01,083 [WARNING] DataFrame[event_processing: string, ght_data_retrieval: string, api_client: string, client_id: string, client_data: string, retriever: string, ghtorrent: string] Number of counting
+2023-06-16 18:06:01,435 [INFO] Counting number of maximum client requests
+2023-06-16 18:06:01,438 [WARNING] DataFrame[client_id: string, max_client_request: bigint] Number of client counting
+2023-06-16 18:06:04,229 [INFO] Counting number of failed requests
+2023-06-16 18:06:04,232 [WARNING] DataFrame[client_id: string, Client_id_failed: bigint] Number of failed counting
+2023-06-16 18:06:07,072 [INFO] Counting most active repository
+2023-06-16 18:06:07,074 [WARNING] DataFrame[retriever: string, gh_torrent_rb_data: bigint] Number of most active counting
+2023-06-16 18:06:09,259 [INFO] Closing down clientserver connection
+2023-06-16 18:09:25,029 [INFO] Created spark session
+2023-06-16 18:09:33,143 [INFO] Counting number of total lines 
+2023-06-16 18:09:34,540 [INFO] Counting number of warning messages appeared
+2023-06-16 18:09:34,555 [WARNING] DataFrame[Warn_message: bigint] Number of counting
+2023-06-16 18:09:35,680 [INFO] Counting number of api client lines 
+2023-06-16 18:09:35,682 [WARNING] DataFrame[Total_api_Client: bigint] Number of counting
+2023-06-16 18:09:37,805 [INFO] Splitted  into different columns
+2023-06-16 18:09:37,808 [WARNING] DataFrame[event_processing: string, ght_data_retrieval: string, api_client: string, client_id: string, client_data: string, retriever: string, ghtorrent: string] Number of counting
+2023-06-16 18:09:38,128 [INFO] Counting number of maximum client requests
+2023-06-16 18:09:38,130 [WARNING] DataFrame[client_id: string, max_client_request: bigint] Number of client counting
+2023-06-16 18:09:40,873 [INFO] Counting number of failed requests
+2023-06-16 18:09:40,877 [WARNING] DataFrame[client_id: string, Client_id_failed: bigint] Number of failed counting
+2023-06-16 18:09:45,550 [INFO] Counting most active repository
+2023-06-16 18:09:45,553 [WARNING] DataFrame[retriever: string, gh_torrent_rb_data: bigint] Number of most active counting
+2023-06-16 18:09:47,935 [INFO] Closing down clientserver connection
+2023-06-16 18:11:10,590 [INFO] Created spark session
+2023-06-16 18:11:18,757 [INFO] Counting number of total lines 
+2023-06-16 18:11:19,976 [INFO] Counting number of warning messages appeared
+2023-06-16 18:11:19,995 [WARNING] DataFrame[Warn_message: bigint] Number of counting
+2023-06-16 18:11:21,234 [INFO] Counting number of api client lines 
+2023-06-16 18:11:21,236 [WARNING] DataFrame[Total_api_Client: bigint] Number of counting
+2023-06-16 18:11:23,373 [INFO] Splitted  into different columns
+2023-06-16 18:11:23,376 [WARNING] DataFrame[event_processing: string, ght_data_retrieval: string, api_client: string, client_id: string, client_data: string, retriever: string, ghtorrent: string] Number of counting
+2023-06-16 18:11:23,669 [INFO] Counting number of maximum client requests
+2023-06-16 18:11:23,671 [WARNING] DataFrame[client_id: string, max_client_request: bigint] Number of client counting
+2023-06-16 18:11:26,310 [INFO] Counting number of failed requests
+2023-06-16 18:11:26,315 [WARNING] DataFrame[client_id: string, Client_id_failed: bigint] Number of failed counting
+2023-06-16 18:11:30,709 [INFO] Closing down clientserver connection
+2023-06-16 18:13:20,083 [INFO] Created spark session
+2023-06-16 18:13:28,640 [INFO] Counting number of total lines 
+2023-06-16 18:13:29,936 [INFO] Counting number of warning messages appeared
+2023-06-16 18:13:29,950 [WARNING] DataFrame[Warn_message: bigint] Number of counting
+2023-06-16 18:13:31,099 [INFO] Counting number of api client lines 
+2023-06-16 18:13:31,101 [WARNING] DataFrame[Total_api_Client: bigint] Number of counting
+2023-06-16 18:13:33,320 [INFO] Splitted  into different columns
+2023-06-16 18:13:33,322 [WARNING] DataFrame[event_processing: string, ght_data_retrieval: string, api_client: string, client_id: string, client_data: string, retriever: string, ghtorrent: string] Number of counting
+2023-06-16 18:13:33,641 [INFO] Counting number of maximum client requests
+2023-06-16 18:13:33,643 [WARNING] DataFrame[client_id: string, max_client_request: bigint] Number of client counting
+2023-06-16 18:13:36,458 [INFO] Counting number of failed requests
+2023-06-16 18:13:36,461 [WARNING] DataFrame[client_id: string, Client_id_failed: bigint] Number of failed counting
+2023-06-16 18:13:39,329 [INFO] Closing down clientserver connection
+2023-06-16 18:14:12,606 [INFO] Created spark session
+2023-06-16 18:14:20,710 [INFO] Counting number of total lines 
+2023-06-16 18:14:21,964 [INFO] Counting number of warning messages appeared
+2023-06-16 18:14:21,980 [WARNING] DataFrame[Warn_message: bigint] Number of counting
+2023-06-16 18:14:23,102 [INFO] Counting number of api client lines 
+2023-06-16 18:14:23,104 [WARNING] DataFrame[Total_api_Client: bigint] Number of counting
+2023-06-16 18:14:25,211 [INFO] Splitted  into different columns
+2023-06-16 18:14:25,213 [WARNING] DataFrame[event_processing: string, ght_data_retrieval: string, api_client: string, client_id: string, client_data: string, retriever: string, ghtorrent: string] Number of counting
+2023-06-16 18:14:25,557 [INFO] Counting number of maximum client requests
+2023-06-16 18:14:25,559 [WARNING] DataFrame[client_id: string, max_client_request: bigint] Number of client counting
+2023-06-16 18:14:28,230 [INFO] Counting number of failed requests
+2023-06-16 18:14:28,233 [WARNING] DataFrame[client_id: string, Client_id_failed: bigint] Number of failed counting
+2023-06-16 18:14:30,652 [INFO] Closing down clientserver connection
+2023-06-16 18:15:24,675 [INFO] Created spark session
+2023-06-16 18:15:32,310 [INFO] Counting number of total lines 
+2023-06-16 18:15:33,648 [INFO] Counting number of warning messages appeared
+2023-06-16 18:15:33,663 [WARNING] DataFrame[Warn_message: bigint] Number of counting
+2023-06-16 18:15:34,896 [INFO] Counting number of api client lines 
+2023-06-16 18:15:34,899 [WARNING] DataFrame[Total_api_Client: bigint] Number of counting
+2023-06-16 18:15:37,141 [INFO] Splitted  into different columns
+2023-06-16 18:15:37,143 [WARNING] DataFrame[event_processing: string, ght_data_retrieval: string, api_client: string, client_id: string, client_data: string, retriever: string, ghtorrent: string] Number of counting
+2023-06-16 18:15:37,467 [INFO] Counting number of maximum client requests
+2023-06-16 18:15:37,469 [WARNING] DataFrame[client_id: string, max_client_request: bigint] Number of client counting
+2023-06-16 18:15:40,096 [INFO] Counting number of failed requests
+2023-06-16 18:15:40,098 [WARNING] DataFrame[client_id: string, Client_id_failed: bigint] Number of failed counting
+2023-06-16 18:15:44,598 [INFO] Counting most active repository
+2023-06-16 18:15:44,601 [WARNING] DataFrame[retriever: string, gh_torrent_rb_data: bigint] Number of most active counting
+2023-06-16 18:15:46,718 [INFO] Closing down clientserver connection
+2023-06-16 18:18:49,561 [INFO] Created spark session
+2023-06-16 18:18:57,212 [INFO] Counting number of total lines 
+2023-06-16 18:18:58,480 [INFO] Counting number of warning messages appeared
+2023-06-16 18:18:58,495 [WARNING] DataFrame[Warn_message: bigint] Number of counting
+2023-06-16 18:18:59,635 [INFO] Counting number of api client lines 
+2023-06-16 18:18:59,637 [WARNING] DataFrame[Total_api_Client: bigint] Number of counting
+2023-06-16 18:19:01,851 [INFO] Splitted  into different columns
+2023-06-16 18:19:01,853 [WARNING] DataFrame[event_processing: string, ght_data_retrieval: string, api_client: string, client_id: string, client_data: string, retriever: string, ghtorrent: string] Number of counting
+2023-06-16 18:19:02,174 [INFO] Counting number of maximum client requests
+2023-06-16 18:19:02,176 [WARNING] DataFrame[client_id: string, max_client_request: bigint] Number of client counting
+2023-06-16 18:19:04,697 [INFO] Counting number of failed requests
+2023-06-16 18:19:04,700 [WARNING] DataFrame[client_id: string, Client_id_failed: bigint] Number of failed counting
+2023-06-16 18:19:09,139 [INFO] Counting most active repository
+2023-06-16 18:19:09,141 [WARNING] DataFrame[retriever: string, gh_torrent_rb_data: bigint] Number of most active counting
+2023-06-16 18:19:11,442 [INFO] Closing down clientserver connection
