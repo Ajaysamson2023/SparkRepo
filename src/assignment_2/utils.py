@@ -89,11 +89,6 @@ def active_hour(df):
     return most_hour_active
 
 
-# def active_hour(split_col):
-#     most_active_hour = split_col.orderBy("ght_data_retrieval").agg(count("*").alias("most_active_hour"))
-#     return most_active_hour
-
-
 def most_active_repo(split_col):
     most_active = split_col.groupBy("retriever").agg(count("*").alias("gh_torrent_rb_data"))
     most_active_repository = most_active.orderBy(col("gh_torrent_rb_data").desc())
