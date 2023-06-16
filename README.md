@@ -18,6 +18,8 @@
 
 **Assignment-2**
 
+-- Configured and added logger for assignment_2.
+
 -- As per the spark assignment_2 they are ghtorrent text files.
 
 -- Firstly imported Sql types and functions,spark session and Created spark session.
