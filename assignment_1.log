@@ -1,0 +1,30 @@
+2023-06-16 16:26:37,235 [INFO] Created spark session
+2023-06-16 16:26:47,648 [INFO] Read the dataframe of user data
+2023-06-16 16:26:48,392 [INFO] Read the dataframe of transaction data
+2023-06-16 16:26:48,656 [INFO] Joined user and transaction dataframe
+2023-06-16 16:26:49,459 [INFO] Got unique location from dataframe
+2023-06-16 16:26:50,842 [INFO] Got product bought from dataframe
+2023-06-16 16:26:51,406 [INFO] Got total spend  from dataframe
+2023-06-16 16:26:51,993 [INFO] Closing down clientserver connection
+2023-06-16 16:27:08,385 [INFO] Created spark session
+2023-06-16 16:27:17,715 [INFO] Read the dataframe of user data
+2023-06-16 16:27:18,451 [INFO] Read the dataframe of transaction data
+2023-06-16 16:27:18,705 [INFO] Joined user and transaction dataframe
+2023-06-16 16:27:19,488 [INFO] Got unique location from dataframe
+2023-06-16 16:27:20,776 [INFO] Got product bought from dataframe
+2023-06-16 16:27:21,335 [INFO] Got total spend  from dataframe
+2023-06-16 16:27:21,999 [INFO] Closing down clientserver connection
+2023-06-16 16:29:46,334 [INFO] Created spark session
+2023-06-16 16:29:55,397 [INFO] Read the dataframe of user data
+2023-06-16 16:29:56,125 [INFO] Read the dataframe of transaction data
+2023-06-16 16:29:56,372 [INFO] Joined user and transaction dataframe
+2023-06-16 16:29:57,183 [INFO] Got unique location from dataframe
+2023-06-16 16:29:58,472 [INFO] Got product bought from dataframe
+2023-06-16 16:29:59,027 [INFO] Got total spend  from dataframe
+2023-06-16 16:29:59,552 [INFO] Closing down clientserver connection
+2023-06-16 16:30:29,694 [INFO] Created spark session
+2023-06-16 16:30:34,905 [INFO] Joined user and transaction dataframe
+2023-06-16 16:30:42,534 [INFO] Got unique location from dataframe
+2023-06-16 16:30:47,516 [INFO] Got product bought from dataframe
+2023-06-16 16:30:51,709 [INFO] Got total spend  from dataframe
+2023-06-16 16:30:55,825 [INFO] Closing down clientserver connection
